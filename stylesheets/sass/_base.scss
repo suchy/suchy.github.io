@@ -1,0 +1,19 @@
+body {
+  background: #fff;
+  font-family: Georgia, Helvetica, Arial, sans-serif;
+  color: #444;
+}
+
+a {
+  color: #d50000;
+  text-decoration: none;
+
+  &:hover,
+  &:focus { text-decoration: underline; }
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
